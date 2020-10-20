@@ -1,4 +1,20 @@
 // The following variables can be overridden
 
 // The primary accent color can take any css color property, including hex, named props, rgba etc.
-// $primary:
+$navWidth: 100px;
+$meatWidth: 28px;
+$meatHeight: 2px;
+$burgerContainerHeight: 4rem;
+
+// colors
+$black: #ECEFF4;
+$lightGrey: #4C566A;
+$greyTableBorder: #434C5E;
+$grey: #D8DEE9;
+$darkGrey: #E5E9F0;
+$white: #3B4252;
+$primary: #B48EAD;
+
+// screenSizes// $primary:
+$medium: 800px;
+$large: 1400px;
