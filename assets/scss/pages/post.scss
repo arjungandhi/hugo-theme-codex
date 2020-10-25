@@ -95,12 +95,12 @@ $tocBreakpoint: 1024px;
 
   a {
     text-decoration: none;
-    color: #9b9b9b;
+    color: $darkGrey;
     font-size: 0.9rem;
   }
 
   a.active {
-    color: rgb(51, 51, 51);
+    color: $grey
   }
 }
 
@@ -238,4 +238,8 @@ table {
     padding: 0.5em 1em;
     border: 1px double $greyTableBorder;
   }
+}
+
+a {
+  color: $linkColor
 }
